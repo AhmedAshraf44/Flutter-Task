@@ -164,6 +164,9 @@ Includes:
 
 **`All favorite data is stored persistently using SQLite.`**
 
+
+## 📸 Screenshot to App
+
 <p align="center">
   <img src="assets/images/screenshot/screenshot1.jpg" width="200"/>
   <img src="assets/images/screenshot/screenshot2.jpg" width="200"/>
