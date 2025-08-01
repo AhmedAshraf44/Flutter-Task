@@ -164,4 +164,12 @@ Includes:
 
 **`All favorite data is stored persistently using SQLite.`**
 
-| ![screenshot 1](assets/images/screenshot/screenshot1.jpg) | ![screenshot 2](assets/images/screenshot/screenshot2.jpg) |
+<p align="center">
+  <img src="assets/images/screenshot/screenshot1.jpg" width="200"/>
+  <img src="assets/images/screenshot/screenshot2.jpg" width="200"/>
+  <img src="assets/images/screenshot/screenshot3.jpg" width="200"/>
+  <img src="assets/images/screenshot/screenshot4.jpg" width="200"/>
+  <img src="assets/images/screenshot/screenshot5.jpg" width="200"/>
+  <img src="assets/images/screenshot/screenshot6.jpg" width="200"/>
+  <img src="assets/images/screenshot/screenshot7.jpg" width="200"/>
+</p>
