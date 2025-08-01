@@ -12,7 +12,8 @@ Loading real/mock data from a local SQLite database.
 
 ## Getting Started
 
-**`[apk and screen recording](https://drive.google.com/drive/folders/10OVunpOm8EExuP1YnV2-m2VSWjGghSnj?usp=drive_link)`**
+**[`📦 Download APK & 🎥 Screen Recording`](https://drive.google.com/drive/folders/10OVunpOm8EExuP1YnV2-m2VSWjGghSnj?usp=drive_link)**
+
 Here is a Google Drive folder that contains:
 ✅ A release APK of the application.
 🎥 A screen recording video demonstrating the app functionality.
