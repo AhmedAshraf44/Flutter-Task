@@ -1,8 +1,25 @@
 # kartngo_task
 
-A new Flutter project.
+📱 Flutter Task Project – AI-Led Development Evaluation
+This project was developed as part of a Flutter evaluation task that focuses on:
+
+- Reproducing a target mobile app screen pixel-perfectly.
+- Guiding an AI assistant (ProxyAI) to implement features.
+- Using Bloc pattern and MVVM architecture for clean code separation.
+Loading real/mock data from a local SQLite database.
+- Maintaining clean, organized, and testable code structure.
+- Demonstrating AI-led coding via clearly defined prompts.
 
 ## Getting Started
+
+**`https://drive.google.com/drive/folders/10OVunpOm8EExuP1YnV2-m2VSWjGghSnj?usp=drive_link`**
+Here is a Google Drive folder that contains:
+✅ A release APK of the application.
+🎥 A screen recording video demonstrating the app functionality.
+
+Let me know if you need anything else.
+
+
 
 ## 1- 🤖 AI‑Led Coding
 I used AI assistance (ProxyAI) to generate and refine key parts of the code. Below are two of the prompts I used:
