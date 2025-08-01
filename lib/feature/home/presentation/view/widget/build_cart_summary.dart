@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:kartngo_task/feature/card/presentation/view/cart_view.dart';
 
 import '../../../../../core/constants/app_color.dart';
 import '../../../../../core/style/app_style.dart';
+import '../../../../cart/presentation/view/cart_view.dart';
 import '../../../data/models/product_model.dart';
 import '../../manger/home_cubit/home_cubit.dart';
 import 'build_label.dart';

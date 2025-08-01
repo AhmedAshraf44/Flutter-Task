@@ -8,6 +8,7 @@ A new Flutter project.
 I used AI assistance (ProxyAI) to generate and refine key parts of the code. Below are two of the prompts I used:
 
 #### 1. Prompt:  
+
 "Design this screen with the same design, colors, fonts, and everything using flutter?".
 (Attached the design image in the prompt)
 
@@ -30,6 +31,7 @@ This AI-generated plan and code were used to build the HomeScreen, split it into
 
 
 #### 2. Prompt:  
+
 "Divide this widget into smaller widgets to keep the code organized?"
 (Attached the full widget code in the prompt)
 
@@ -53,6 +55,7 @@ This made it easier to test and reuse UI parts, and reduced the complexity of th
 
 
 #### 3. Prompt:  
+
 "Add description to every model?"
 (ProductModel list was provided)
 
@@ -146,6 +149,7 @@ Allows:
 - Viewing total prices.
 All actions reflect instantly in local storage.
 
+
 ### 🛒 Cart Screen
 Shows detailed view of selected products.
 
@@ -164,3 +168,4 @@ Includes:
 
 **`All favorite data is stored persistently using SQLite.`**
 
+| ![screenshot 1](assets/images/screenshot/screenshot1.jpg) | ![screenshot 2](assets/images/screenshot/screenshot2.jpg) |
