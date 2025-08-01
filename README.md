@@ -18,8 +18,9 @@ Here is a Google Drive folder that contains:
 ✅ A release APK of the application.
 🎥 A screen recording video demonstrating the app functionality.
 
-Let me know if you need anything else.
+✅ The application is fully responsive and works seamlessly across all mobile screen sizes.
 
+Let me know if you need anything else.
 
 
 ## 1- 🤖 AI‑Led Coding
