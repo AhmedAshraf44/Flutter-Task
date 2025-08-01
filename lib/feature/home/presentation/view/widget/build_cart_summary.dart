@@ -21,9 +21,6 @@ class BuildCartSummary extends StatelessWidget {
         onTap: () async {
           final cartItems = _getSelectedProducts();
           for (var item in cartItems) {
-            // HomeCubit.get(context)
-            //     .updateQuantitySilently(item.id!, item.quantity.value);
-            // context.read<HomeCubit>().updateQuantity(product);
             context.read<HomeCubit>().updateQuantity(item);
           }
           Navigator.push(context, MaterialPageRoute(builder: (context) {

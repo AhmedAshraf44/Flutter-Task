@@ -16,10 +16,10 @@ class BuildProductItem extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    // late final cubit = HomeCubit.get(context);
-    void incrementQuantity() => context.read<HomeCubit>().incrementQuantity(product);
-    void decrementQuantity() => context.read<HomeCubit>().decrementQuantity(product);
-
+    void incrementQuantity() =>
+        context.read<HomeCubit>().incrementQuantity(product);
+    void decrementQuantity() =>
+        context.read<HomeCubit>().decrementQuantity(product);
 
     return InkWell(
       onTap: () {
@@ -39,12 +39,14 @@ class BuildProductItem extends StatelessWidget {
           borderRadius: BorderRadius.circular(15),
         ),
         child: Padding(
-          padding: const EdgeInsets.all(10),
+          padding: const EdgeInsets.symmetric(horizontal: 10.0),
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
+            mainAxisAlignment: MainAxisAlignment.center,
             children: [
+              const Spacer(),
               ProductImage(imagePath: product.image),
-              const SizedBox(height: 8),
+              Spacer(),
               ProductName(
                 name: product.title,
               ),
@@ -55,6 +57,7 @@ class BuildProductItem extends StatelessWidget {
                 onIncrement: incrementQuantity,
                 onDecrement: decrementQuantity,
               ),
+              const Spacer(),
             ],
           ),
         ),

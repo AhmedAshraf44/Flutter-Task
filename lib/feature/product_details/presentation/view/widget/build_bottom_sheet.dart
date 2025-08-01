@@ -45,13 +45,12 @@ class BuildBottomSheet extends StatelessWidget {
       onTap: () {
         context.read<HomeCubit>().toggleFavorite(product);
         final newValue = product.isFavorite.value;
-       // HomeCubit.get(context).updateIsFavoriteSilently(product.id!, newValue);
         showToast(
           context,
           newValue
               ? 'تمت الإضافة إلى المفضلة بنجاح'
               : 'تم الحذف من المفضلة بنجاح',
-          color: newValue ?AppColors.kButtonPrimary : Colors.red,
+          color: newValue ? AppColors.kButtonPrimary : Colors.red,
           icon: Icons.favorite,
         );
       },
@@ -69,17 +68,15 @@ class BuildBottomSheet extends StatelessWidget {
         onTap: isFav
             ? null
             : () {
-          context.read<HomeCubit>().toggleFavorite(product);
-          product.isFavorite.value = true;
-          // HomeCubit.get(context)
-          //     .updateIsFavoriteSilently(product.id!, true);
-          showToast(
-            context,
-            'تمت الإضافة إلى المفضلة بنجاح',
-            color: AppColors.kButtonPrimary,
-            icon: Icons.favorite,
-          );
-        },
+                context.read<HomeCubit>().toggleFavorite(product);
+                product.isFavorite.value = true;
+                showToast(
+                  context,
+                  'تمت الإضافة إلى المفضلة بنجاح',
+                  color: AppColors.kButtonPrimary,
+                  icon: Icons.favorite,
+                );
+              },
         text: isFav ? 'تمت الإضافة' : 'إضافة إلى المفضلة',
         color: isFav ? Colors.grey.shade400 : AppColors.kButtonPrimary,
       ),
