@@ -1,12 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:kartngo_task/feature/home/data/models/product_model.dart';
-
-import '../../../../core/constants/app_color.dart';
 import '../../../../core/functions/build_app_bar.dart';
-import '../../../../core/functions/show_toast.dart';
-import '../../../../core/style/app_style.dart';
-import 'widget/cart_view_body.dart';
-import '../../../../core/utils/widgets/custom_button.dart';
 import 'widget/empty_cart_view.dart';
 import 'widget/filled_cart_view.dart';
 

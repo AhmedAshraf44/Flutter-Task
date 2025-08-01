@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-
 import '../../../../../core/constants/app_color.dart';
-import '../../../../../core/style/app_style.dart';
 import '../../../../cart/presentation/view/cart_view.dart';
 import '../../../data/models/product_model.dart';
 import '../../manger/home_cubit/home_cubit.dart';
@@ -27,7 +25,6 @@ class BuildCartSummary extends StatelessWidget {
             //     .updateQuantitySilently(item.id!, item.quantity.value);
             // context.read<HomeCubit>().updateQuantity(product);
             context.read<HomeCubit>().updateQuantity(item);
-
           }
           Navigator.push(context, MaterialPageRoute(builder: (context) {
             return CartView(
