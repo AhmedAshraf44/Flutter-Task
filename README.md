@@ -113,7 +113,7 @@ Views (UI) for presentation.
 
 
 
-### 5- 💎 Code Quality
+## 5- 💎 Code Quality
 - The codebase is **`clean, modular, and well-organized,`**  following best practices to ensure maintainability and scalability.
 
 - The project uses the **MVVM architecture**  to clearly separate business logic from UI components.
